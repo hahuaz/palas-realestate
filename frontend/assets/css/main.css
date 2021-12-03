@@ -1,0 +1,125 @@
+@import url('./unresetCss.css');
+@import url('./transition.css');
+
+@font-face {
+  font-family: 'goblin';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/fonts/GoblinOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/fonts/Poppins-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'jura';
+  font-style: light;
+  font-weight: 300;
+  font-display: swap;
+  src: url('~assets/fonts/jura-light.ttf') format('truetype');
+}
+
+:root {
+  --tw-blue-50: #eff6ff;
+  --tw-blue-100: #dbeafe;
+
+  --theme-green: #10b981;
+  --theme-blue: #083b66;
+
+  --c-vl-blue: #f8fbff;
+  --c-bej: #f0ebcc;
+}
+
+.red--border,
+.red--border * {
+  border: 1px solid red;
+}
+
+html {
+  /* font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif; */
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+section {
+  position: relative;
+}
+.background--wrapper {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.background--image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+
+  /* background: linear-gradient(to bottom, rgba(black, 0.05), rgba(black, 0.2)),
+      url('~/assets/img/landing.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mw-1170 {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.before-hype::before {
+  background-color: #95c425;
+  content: '';
+  height: 0.2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  left: -1.5rem;
+  opacity: 0.6;
+  position: absolute;
+  top: 0.8rem;
+  width: 1rem;
+}
+
+.intersect--item {
+  transition: all 0.8s;
+}
+.hide--intersect {
+  opacity: 0;
+  transform: translateY(8rem);
+}
+
+.opacity--zero {
+  opacity: 0;
+}
+
+.turkish-lira::after {
+  font-family: Arial, Helvetica, sans-serif;
+  content: '\20BA';
+}
+
+.splide__slide.is-active {
+  border-color: #0967b5 !important;
+}

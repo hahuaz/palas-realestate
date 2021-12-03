@@ -1,0 +1,54 @@
+[
+  {
+    "images": "https://picsum.photos/200/200",
+    "odaSayisi": "2+1",
+    "kat": 2,
+    "binaYasi": 15,
+    "title": "Sancaktepe yunus emrede lüx bekara uygun",
+    "m2Brut": 110,
+    "m2Net": 100,
+    "price": 150000,
+    "sehir": "istanbul",
+    "ilce": "sancaktepe",
+    "mahalle": "Yunus Emre Mh."
+  },
+  {
+    "images": "https://picsum.photos/200/200",
+    "odaSayisi": "2+1",
+    "kat": 2,
+    "binaYasi": 15,
+    "title": "Sancaktepe yunus emrede lüx bekara uygun",
+    "m2Brut": 110,
+    "m2Net": 100,
+    "price": 150000,
+    "sehir": "istanbul",
+    "ile": "sancaktepe",
+    "mahalle": "Yunus Emre Mh."
+  },
+  {
+    "images": "https://picsum.photos/200/200",
+    "odaSayisi": "2+1",
+    "kat": 2,
+    "binaYasi": 15,
+    "title": "Sancaktepe yunus emrede lüx bekara uygun",
+    "m2Brut": 110,
+    "m2Net": 100,
+    "price": 150000,
+    "sehir": "istanbul",
+    "ilce": "sancaktepe",
+    "mahalle": "Yunus Emre Mh."
+  },
+  {
+    "images": "https://picsum.photos/200/200",
+    "odaSayisi": "2+1",
+    "kat": 2,
+    "binaYasi": 15,
+    "title": "Sancaktepe yunus emrede lüx bekara uygun",
+    "m2Brut": 110,
+    "m2Net": 100,
+    "price": 150000,
+    "sehir": "istanbul",
+    "ilce": "sancaktepe",
+    "mahalle": "Yunus Emre Mh."
+  }
+]

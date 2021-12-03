@@ -1,0 +1,78 @@
+{
+  "kind": "collectionType",
+  "collectionName": "konuts",
+  "info": {
+    "name": "Konut",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "baslik": {
+      "type": "string"
+    },
+    "fiyat": {
+      "type": "decimal"
+    },
+    "emlakTipi": {
+      "type": "enumeration",
+      "enum": [
+        "Sell",
+        "Rent"
+      ]
+    },
+    "m2Brut": {
+      "type": "integer"
+    },
+    "tanitim": {
+      "type": "richtext"
+    },
+    "m2Net": {
+      "type": "integer"
+    },
+    "odaSayisi": {
+      "type": "string"
+    },
+    "kat": {
+      "type": "integer"
+    },
+    "binaYasi": {
+      "type": "integer"
+    },
+    "adres": {
+      "type": "string"
+    },
+    "resimler": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "slug": {
+      "type": "string"
+    },
+    "aydat": {
+      "type": "integer"
+    },
+    "isitma": {
+      "type": "enumeration",
+      "enum": [
+        "Soba",
+        "Dogalgaz",
+        "Merkezi"
+      ]
+    },
+    "googleHarita": {
+      "type": "string"
+    }
+  }
+}
